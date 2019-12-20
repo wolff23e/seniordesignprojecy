@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>SMART Rack</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
+integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw="
+crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="semantic/dist/semantic.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<style>
+body {font-family: "Lato", sans-serif}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">SMARTRACK</a>
+    <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#pres" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRESENTATIONS</a>
+    <a href="#reports" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REPORTS</a>
+    </div>
+  </div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+  <a href="#pres" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRESENTATIONS</a>
+  <a href="#reports" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REPORTS</a>
+</div>
+
+<style>
+.img-with-text {
+    text-align: justify;
+    width: 150px;
+}
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+  }
+.top {
+  vertical-align: top;
+}
+#homepic {
+  z-index: -1;
+}
+.bgimg {
+  background-image: url("img/frotnpage.jpg");
+}
+
+.bgimg,
+.bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<!-- Page content -->
+<div class="w3-content w3-center bgimg" style="max-width:2000px;">
+  <div class="w3-display-middle w3-text-white w3-center">
+  </div>
+</div>
+
+
+
+
+ <!---  <p> Alessy LeBlanc        Andrew Jewers      Fedor Penikov       Arthur Singas </p>--> 
+  <!-- The about us Section -->
+  <div class="w3-container w3-content w3-center w3-padding-5" style="max-width:800px" id="aboutus">
+  <h2 class="w3-wide w3-content w3-center">ABOUT US</h2>
+  <p class="w3-opacity w3-content w3-center"><i>A Smart solution to Rack overcrowding</i></p>
+  <div class="w3-content w3-center">
+  <div class="ui segment">
+    <div class="top">
+    <div class="ui small image">
+      <div class="img-with-text">
+          <img src="/img/alessybb.png" alt="Alessy LeBlanc" />
+          <h6>Alessy LeBlanc, Team Manager, EE, Raspberry Pi & FRID Development.</h6>
+      </div>
+      </div>
+      <div class="ui small image">
+        <div class="img-with-text">
+            <img src="/img/andrew.png" alt= "Andrew Jewers "  >
+            <h6>Andrew Jewers, EE, Hardware Fabrication.<pre></pre><pre></pre><pre></pre><pre></pre></h6>
+        </div>
+        </div>
+        <div class="ui small image">
+          <div class="img-with-text">
+              <img src="/img/fedachez .png" alt= "Fedor Penikov" >
+              <h6>Fedor Penikov, EE, PCB Lead, PCB Development.<pre></pre></h6>
+          </div>
+          </div>
+          <div class="ui small image">
+            <div class="img-with-text">
+                <img src="/img/aurthur .png"  alt= "Arthur Singas  ">
+                <h6>Arthur Singas, CSE, Android Development.<pre></pre><pre></pre><pre></pre></h6>
+            </div>
+            </div>
+            <div class="ui small image">
+              <div class="img-with-text">
+                  <img src="img/prof.png" alt= "Professor  ">
+                  <h6>Professor Xu</h6>
+                  </div>  
+              </div>
+              </div>
+  </div>
+</div>
+</div>
+
+
+  <!-- The PRESENTATIONS Section -->
+  <div class="w3-black" id="pres">
+    <div class="w3-container  w3-center w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PRESENTATIONS</h2>
+      <p class="w3-opacity w3-center"><i>Click for PDF Download </i></p><br>
+      <a href="/img/MDR.pdf" download>MDR</a>
+      <pre></pre>
+      <a href="/img/PDR.pdf" download>PDR</a>
+  </div>
+
+
+
+  <!-- TheREPORTS Section -->
+  <div class="w3-container  w3-center w3-content w3-padding-64" style="max-width:800px" id="reports">
+    <h2 class="w3-wide w3-center">REPORTS</h2>
+    <p class="w3-opacity w3-center"><i>Click for PDF Download</i></p>
+      <!-- need to add report here Section -->
+    <a href="/img/reportlinkgoeshere" download>MDR Report</a>
+   
+  </div>
+
+    <!-- block diagram  Section -->
+<div class="w3-container w3-content w3-center w3-padding-5" style="max-width:800px" id="aboutus">
+      <h2 class="w3-wide w3-content w3-center">BLOCK DIAGRAM</h2>
+<p class="w3-opacity w3-content w3-center"><i></i></p>
+  <img src="img/BlockdiagramMDR.PNG" height="87%" width="87%">
+<!-- End Page Content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Powered by Team 13 </p>
+</footer>
+
+<script>
+
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
